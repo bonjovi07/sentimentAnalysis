@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Poppins,sans-serif;
+}
+.Container{
+    width: 445px;
+    height: 260px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    font-size: 12px;
+    padding:20px;
+}
+label{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+input{
+    display: block;
+    margin: 10px 5px 10px 5px;
+    border-radius: 3px;
+    border: 1px solid #C2C2C2;
+    height: 20px;
+    width: 200px;
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 2px;
+    color: #2b2828;
+}
+input:focus{
+    outline: none;
+    border: 1px solid #000000;
+}
+    #email{
+        width: 300px; 
+    }
+    #date{
+        width: 100px;
+    }
+textarea{
+    display: block;
+    width: 430px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid #C2C2C2;
+    resize: none;
+    padding: 5px;
+}
+
+textarea:focus { 
+    outline: none;
+    border: 1px solid #000000;
+}
+p{
+    font-size: 10px;
+    margin:20px;
+    text-align: center;
+    color: #413f3f;
+}
+span{
+    font-weight: bold;
+    color: #3A5938;
+}
+button{
+    margin: 30px;
+    margin-left: 85px;
+    padding: 8px;
+    width: 250px;
+    background-color: #4f744c;
+    border: none;
+    color: #ffffff;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+#linkInput{
+    height: 30px;
+    width: 325px;
+    padding: 0px 0px 0px 6px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 15px 0px 0px 15px;
+    display: inline-block;
+}
+#copyLink{
+    height: 31.5px;
+    width: 100px;
+    margin: 0px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #EAAD00;
+}

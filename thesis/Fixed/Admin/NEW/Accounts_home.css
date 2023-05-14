@@ -1,0 +1,23 @@
+.nav-pills li a:hover{
+    background-color: #d4b76d;
+}
+
+.nav-pills {
+    padding: 150% 0;
+}
+
+.content-sidebar {
+    width: 7.5%;
+}
+
+.content-side {
+    width: 92.5%;
+}
+
+.logo {
+    position: absolute;
+    left: 5.1%;
+    top: 0%
+}
+
+

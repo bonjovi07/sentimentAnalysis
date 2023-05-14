@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Poppins,sans-serif;
+}
+.Container{
+    width: 800px;
+    height: 400px;
+    background-color: #7CA47A;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    margin-top: -225px;
+    margin-left: 280px;
+    padding: 10px;
+    color:#ffffff;
+}
+h2{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 70px;
+}
+button{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    line-height: 48px;
+    margin-top: 20px;
+    margin-left: 340px;
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background: #EAAD00;
+    box-shadow: 0px 4px 4px rgba(114, 114, 114);
+    border-radius: 10px;
+    border: 0px;
+}

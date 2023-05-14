@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Reports3.css">
+</head>
+<body>
+    <div class='reports3_page'>
+        <Header></Header>
+        <h1 class="headtitle"> QUARTERLY REPORTS </h1>
+
+            <div class='office_name'>
+                            <h3>Office:</h3>
+                            <p>Dean's Office</p>
+                </div>
+        
+        <table class='tbl_graph'>
+            <tr>
+                <td class='pie_chart'>
+                    <Chart
+                        chartType="PieChart"
+                        data={data}
+                        options={options}
+                        width="80%"
+                        height="500px"
+                        />
+                    <h2> Sentiment Analysis Report</h2>
+                
+                </td>
+                <td class="report_data">
+                    <div class="tc">
+                            <p>TOTAL CLIENTS </p>
+                            <h3>5,634</h3>
+                            <h3>RESPONDERS</h3>
+                        </div>
+
+                        <div class="oar">
+                            <p>OVERALL AVG. RATING</p>
+                            <h3>4.21</h3>
+                            <h3>AVERAGE</h3>
+                        </div>
+
+                </td>
+            </tr>
+        </table>
+
+
+
+
+            <div class='report-stat'>
+                <button type="button" class='stat'>Statistics</button>
+                <button type="button" class='sum_rprt'>Summary Report</button>
+            </div>
+
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+.settings_page{
+    margin-top: 18px;
+}
+
+.headtitle{
+    color: #3A5938;
+    margin-left: 40px;
+    margin-top:50px
+}
+.frm{
+    border: 2px solid #3A5938;
+    border-radius: 15px;
+    width: 25%;
+    height: 150px;
+    padding: 50px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.form_container input{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.form_container input::placeholder{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder
+}
+.save-cancel{
+    margin-top: 100px;
+    margin-right: 35%;
+    text-align: right;  
+}
+
+.save{
+    color:white;
+    background-color: #EAAD00;
+    border: #EAAD00;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bolder;
+    margin-right: 10px;
+  }
+
+  .save:hover{
+    background-color: #3A5938;
+  }
+
+
+.cancel{
+    color:white;
+    background-color: #C32424;
+    border: #C32424;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bolder;
+  }
+
+  .cancel:hover{
+    background-color: #3A5938;
+  }

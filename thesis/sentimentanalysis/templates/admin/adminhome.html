@@ -1,0 +1,41 @@
+{% extends 'basesidebar.html' %}
+{% load static %}
+
+{% block pagecss %}
+<link rel="stylesheet" href="{% static 'css/admin_home.css' %}">
+{% endblock%}
+
+{% block title %}
+    Admin | Accounts
+{% endblock %}
+
+
+{% block content %}
+<div class="accounts_page">
+        <header></header>
+        <h1 class="headtitle">ACCOUNTS</h1>
+        <div class="Search_bar">
+            <input type="text" placeholder="Search Account" />
+        </div>
+        <div class="accounts_tbl">
+            <table>
+                <tr>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Office</th>
+                    <th colspan="2">Actions</th>
+                </tr>
+                <tr key="{key}">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="edt"></td>
+                    <td class="del"></td>
+                </tr>
+            </table>
+            <div class="Add_Account">
+                <button type="button" onClick="">ADD ACCOUNT</button>
+            </div>
+        </div>
+    </div>
+{% endblock%}

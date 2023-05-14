@@ -1,0 +1,130 @@
+.App {
+  background-color: #80a47c;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image:url(LoginBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding:10px
+}
+
+.Auth-form {
+  width: 500px;
+  box-shadow: white(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  background-color: #80a47c;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-weight:bolder;
+  margin-top: 4%;
+  margin-bottom: 2%;
+  text-shadow: 2px 2px gray
+}
+
+.form-subtitle{
+  text-align: center;
+  color: #f0ac04;
+  font-size: small;
+  margin-bottom: 10%;
+  text-shadow: 2px 2px gray
+}
+
+.fill-in ::placeholder{
+  color: white;
+}
+
+.fill-in:hover{
+  border-color:#3A5938
+}
+
+.fill-in{
+  align-items: center;
+}
+
+.fill-in_email{
+  color: white;
+  background-color: #80a47c;
+  border: white solid 1px;
+  border-radius: 3px;
+  height: 30px;
+  width: 375px;
+  margin-bottom: 5%;
+  align-items: center;
+}
+
+.fill-in_password {
+  color: white;
+  background-color: #80a47c;
+  border: white solid 1px;
+  border-radius: 3px;
+  height: 30px;
+  width: 375px;
+}
+
+.forgot-password a{
+  color:white;
+  text-decoration: none;
+  font-size: small;
+}
+
+.forgot-password{
+  text-align: right;
+}
+
+.forgot-password a:hover{
+  color: #f0ac04;
+}
+
+
+.btn_submit{
+  background-color: #f0ac04;
+  box-shadow: 3px 4px gray;
+  color: white;
+  border: white;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: block;
+  padding:10px 30px 10px
+}
+
+.btn_submit:hover{
+  background-color: #3A5938;
+}

@@ -1,0 +1,45 @@
+.employeeprofile_page{
+    margin-top: 18px;
+}
+
+.headtitle{
+    color: #3A5938;
+    margin-left: 40px;
+    margin-top:50px
+}
+.employee_info{
+    border: 2px solid #3A5938;
+    border-radius: 15px;
+    width: 20%;
+    height: 200px;
+    padding: 50px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.employee_info p{
+    margin: 20px;
+    font-weight:bolder;
+    font-size: 20px;
+}
+
+.edit_bttn{
+    margin-top: 40px;
+    text-align: right;  
+}
+
+.edit{
+    color:white;
+    background-color: #3A5938;
+    border: #3A5938;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    width: 100px;
+  }
+
+  .edit:hover{
+    background-color: #EAAD00;
+  }

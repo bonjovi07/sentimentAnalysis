@@ -1,0 +1,78 @@
+.employees_page{
+    margin-top: 18px;
+}
+
+.headtitle{
+    color: #3A5938;
+    margin-left: 40px;
+    margin-top:50px
+}
+.employee_tbl{
+    margin-top: 50px;
+}
+
+table {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 90%;
+    height: 200px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 10px
+    
+  }
+    
+  th {
+    border-bottom: 2px solid gray;
+    font-size: 25px;
+    padding: 10px;
+  }
+    
+  td {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px 10px;
+  }
+  .edt{
+    text-align: right;
+    color: #3A5938;
+  }
+  .del{
+    text-align: left;
+    color:red;
+  }
+
+  .Add_Employee{
+    margin-top: 100px;
+    margin-right: 5%;
+    text-align: right;
+    
+  }
+
+  .Add_Employee button{
+    color:white;
+    background-color: #EAAD00;
+    border: #EAAD00;
+    border-radius: 10px;
+    padding: 15px;
+    font-weight: bolder;
+  }
+
+  .Add_Employee button:hover{
+    background-color: #3A5938;
+  }
+
+  .Search_bar{
+    text-align: right;
+    margin-right: 8%;
+  }
+  .Search_bar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 17px;
+  }

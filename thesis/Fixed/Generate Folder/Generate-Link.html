@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Generate-Link.css">
+    <title>Generate Link</title>
+</head>
+<body>
+    <div class="Main">
+        <!-- <Header /> -->
+        <div class="Container">
+            <form method="GET">
+                <label for="department">
+                    Department <input type="text" id="department"/>
+                </label>
+                <label for="office">
+                    Office <input type="text" id="office"/>
+                </label>
+                <label for="date">
+                    Date <input type="date" class="dateTime"/>
+                </label>
+                <label for="time">
+                    Time <input type="time" class="dateTime"/>
+                </label>
+                <button>Generate Link</button>
+            </form>
+            <div class="GenerateLink">
+                <input type="text" id="linkInput" placeholder="https://www.youtube.com/"/>
+                <button id="copyLink">Copy Link</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Poppins,sans-serif;
+}
+header{
+    background-color: #3A5938;
+    width: 100%;
+    position: absolute;
+    color: #ffffff;
+}
+#logo{
+    width: 120px;
+    position: absolute;
+    margin-left: 40px;
+
+}
+h1{
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 170px;
+}
